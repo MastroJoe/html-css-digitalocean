@@ -1,0 +1,34 @@
+/* NAVBAR FIXED*/
+
+.navbar-brand {
+  margin-right: 20px;
+}
+
+#my-logo img {
+  height: 30px;
+}
+
+.navbar-nav>li>a {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color:#283d68;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#sign-up a {
+  border: 1.5px solid #006aff;
+  color: #006aff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+#sign-up {
+  padding-top: 18px;
+}
+
+
+/* JUMBO */
