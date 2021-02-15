@@ -32,3 +32,8 @@
 
 
 /* JUMBO */
+
+.bg-jumbo {
+  background-image: url();
+  background-color: rgb(0, 105, 255);
+}
