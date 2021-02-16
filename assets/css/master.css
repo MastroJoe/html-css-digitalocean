@@ -70,6 +70,11 @@
 
 /* FORM RIGHT */
 
+.row #right {
+  float: right;
+  padding: 0 0;
+}
+
 .credenziali input, button {
   width: 100%;
   margin-top: 10px;
@@ -97,7 +102,7 @@
 
 .credenziali input:nth-child(1),
 input:nth-child(2) {
-  padding: 10px 0;
+  padding: 10px 5px;
   border-radius: 5px;
   border: 1px solid rgb(229, 232, 237);
 }
@@ -119,22 +124,23 @@ h4 {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 14px;
-  margin-top: 2em;
+  font-size: 15px;
+  padding-top: 35px;
+  padding-bottom: 20px;
   opacity: 1;
   color: rgb(117, 130, 158);
 }
 
 #p-logo p {
   text-align: center;
+  font-size: 16px;
+  font-weight: bold;
   color: #006aff;
-  margin-top: 5px;
-  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
-.bg-grey {
-
-}
+/* MEDIA QUERY */
 
 @media (min-width: 992px)
 .col-md-5 {
