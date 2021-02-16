@@ -52,27 +52,91 @@
 
 .date-personal {
   background-color: #ffffff;
-  padding: 3%;
+  padding: 1.5% 3%;
   border-radius: 5px;
 }
 
-.date-personal h2:first-child{
+.date-personal h2:first-child {
   color: #031B4E;
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: -7px;
 }
 
-.date-personal h2:last-of-type{
+.date-personal h2:last-of-type {
   color: #006aff;
   text-align: center;
 }
 
-.credenziali input, button{
+/* FORM RIGHT */
+
+.credenziali input, button {
   width: 100%;
-  margin-top: 1em;
+  margin-top: 10px;
+}
+
+.credenziali button {
+  box-shadow: 1.5px 1.5px rgb(229, 232, 237);
+  border: none;
 }
 
 .date-personal p {
-  font-size: 15px;
+  font-size: 13px;
+  font-weight: bold;
   color: #031B4E;
   text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
+
+.date-personal p a{
+  color: #006aff;
+  text-decoration: underline;
+}
+
+.credenziali input:nth-child(1),
+input:nth-child(2) {
+  padding: 10px 0;
+  border-radius: 5px;
+  border: 1px solid rgb(229, 232, 237);
+}
+
+.credenziali input:nth-child(3) {
+  background-color: #579AFF;
+  border-color: #579AFF;
+  color: #ffffff;
+}
+
+/* LOGOS */
+
+.bg-grey {
+  background-color: #F3F5F9;
+  margin-top: -30px;
+}
+
+h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 2em;
+  opacity: 1;
+  color: rgb(117, 130, 158);
+}
+
+#p-logo p {
+  text-align: center;
+  color: #006aff;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.bg-grey {
+
+}
+
+@media (min-width: 992px)
+.col-md-5 {
+  width: 45.666667%;
 }
