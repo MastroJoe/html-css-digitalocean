@@ -61,11 +61,13 @@
   text-align: center;
   margin-top: 40px;
   margin-bottom: -7px;
+  font-weight: bold;
 }
 
 .date-personal h2:last-of-type {
   color: #006aff;
   text-align: center;
+  font-weight: bold;
 }
 
 /* FORM RIGHT */
@@ -138,6 +140,37 @@ h4 {
   color: #006aff;
   padding-top: 30px;
   padding-bottom: 20px;
+}
+
+.logo .col-md-2  {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* .container .logo img {
+  width: 100%;
+  height: auto;
+} */
+
+/* DEPLOY SECTION */
+
+deploy-scale {
+  text-align: center;
+}
+
+.deploy h2 {
+  font-size: 37px;
+  color: #031C4E;
+  padding-top: 45px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.deploy p {
+  color: #5D6B89;
+  font-size: 21px;
+  text-align: center;
+  font-weight: bold;
 }
 
 /* MEDIA QUERY */
