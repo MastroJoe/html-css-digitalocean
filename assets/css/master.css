@@ -173,6 +173,26 @@ deploy-scale {
   font-weight: bold;
 }
 
+.list li a {
+  text-decoration: none;
+  font-weight: 540;
+  color: #7F89A1;
+}
+
+.list li {
+  list-style: none;
+  font-size: 21px;
+  border-left: 2px solid #CCCCCC;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.padding-list {
+  padding-top: 75px;
+  padding-left: 70px;
+  margin: 0;
+}
+
 /* MEDIA QUERY */
 
 @media (min-width: 992px)
