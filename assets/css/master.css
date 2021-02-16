@@ -42,12 +42,13 @@
 
 .jumbotron h1 {
   color: #ffffff;
-  font-size: 62px;
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .jumbotron p {
   color: #89AAFF;
-  font-size: 19px;
+  font-size: 22px;
 }
 
 .date-personal {
@@ -122,7 +123,7 @@ input:nth-child(2) {
   margin-top: -30px;
 }
 
-h4 {
+.title-logo h4 {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -138,7 +139,7 @@ h4 {
   font-size: 16px;
   font-weight: bold;
   color: #006aff;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -154,7 +155,7 @@ h4 {
 
 /* DEPLOY SECTION */
 
-deploy-scale {
+.deploy {
   text-align: center;
 }
 
@@ -193,9 +194,55 @@ deploy-scale {
   margin: 0;
 }
 
+.cards h4 {
+  font-size: 20px;
+  color: #031C4E;
+  font-weight: bold;
+}
+
+.cards p {
+  font-size: 16px;
+  color: #5b6987;
+  font-weight: 540;
+}
+
+/* PAGE */
+
+.page h2 {
+  padding-top: 65px;
+  padding-bottom: 25px;
+  font-size: 35px;
+  margin: 0;
+  font-weight: bold;
+  color: #031B4E;
+}
+
+.page p:first-of-type {
+  FONT-WEIGHT: 540;
+  color: #707C97;
+  font-size: 22px;
+  padding-bottom: 50px;
+}
+
+.page img {
+  height:370px;
+}
+
+.page .p-bottom {
+  color: #283d68;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
 /* MEDIA QUERY */
 
-@media (min-width: 992px)
-.col-md-5 {
+@media (min-width: 992px) {
+ /* .col-md-5 {
   width: 45.666667%;
+  } */
+
+ .col-md-6 {
+    width: 58%;
+  }
 }
