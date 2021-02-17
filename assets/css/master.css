@@ -242,17 +242,57 @@ input:nth-child(2) {
   font-size: 50px;
 }
 
+.circles {
+  padding-bottom: 40px;
+}
+
 .circles li {
   list-style: none;
   border-radius: 50%;
   border: 1.5px solid #006aff;
   display: inline-block;
-  padding: 5px 5px;
+  padding: 4px 4px;
 }
 
 .circles li:first-child {
   background-color: #006aff;
 }
+
+/* FEATURES */
+
+.features h2 {
+  font-size: 36px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #031B4E;
+  font-weight: bold;
+}
+
+.features h4 {
+  color: #031B4E;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.features p {
+  color: #707C97;
+  font-weight: bold;
+}
+
+.features p a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: #006aff;
+}
+
+.features {
+  padding-bottom: 50px;
+}
+
+/* SERVICE */
+
+
 
 /* MEDIA QUERY */
 
