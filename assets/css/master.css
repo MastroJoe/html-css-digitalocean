@@ -217,7 +217,7 @@ input:nth-child(2) {
   color: #031B4E;
 }
 
-.page p:first-of-type {
+.page .p-title-menu {
   FONT-WEIGHT: 540;
   color: #707C97;
   font-size: 22px;
@@ -226,6 +226,7 @@ input:nth-child(2) {
 
 .page img {
   height:370px;
+  padding: 0 20px;
 }
 
 .page .p-bottom {
@@ -233,6 +234,24 @@ input:nth-child(2) {
   font-size: 15px;
   font-weight: bold;
   padding-top: 25px;
+  /* padding-bottom: 15px;
+  margin-bottom: 0px; */
+}
+
+.menu i {
+  font-size: 50px;
+}
+
+.circles li {
+  list-style: none;
+  border-radius: 50%;
+  border: 1.5px solid #006aff;
+  display: inline-block;
+  padding: 5px 5px;
+}
+
+.circles li:first-child {
+  background-color: #006aff;
 }
 
 /* MEDIA QUERY */
