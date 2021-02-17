@@ -292,6 +292,55 @@ input:nth-child(2) {
 
 /* SERVICE */
 
+.bg-service {
+  background-image: url("../img/bg-map.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #354971;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bg-service .row .text-center h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.cities li {
+  list-style: none;
+  height: 35px;
+  margin: 0;
+  padding: 10px;
+}
+
+.cities li p {
+  display: inline-block;
+  color: #929DB3;
+  width: 63%;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.cities li a {
+  color: #00d7d2;
+  text-decoration: none;
+}
+
+.cities li div{
+  color: #ffffff;
+  margin-left: 10px;
+  display: inline-block;
+  width: 15%;
+}
+
+.cities li:not(li:last-child) {
+  border-bottom: 1px solid #ffffff;
+}
+
+
+/* DEVELOPMENT */
 
 
 /* MEDIA QUERY */
@@ -301,7 +350,7 @@ input:nth-child(2) {
   width: 45.666667%;
   } */
 
- .col-md-6 {
+ .col-jumbo{
     width: 58%;
   }
 }
